@@ -31,7 +31,3 @@ module.exports = {
 ```
 
 That's it! Next time you generate your _CSS_ with Tailwind, the stack utilities will be added.
-
-## Usage
-
-

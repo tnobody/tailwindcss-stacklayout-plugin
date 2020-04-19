@@ -1,8 +1,10 @@
 {
   "name": "tailwindcss-stack-plugin",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "src/index.js",
+  "repository": "https://github.com/tnobody/tailwindcss-stacklayout-plugin",
+  "homepage": "https://github.com/tnobody/tailwindcss-stacklayout-plugin/README.md",
   "scripts": {
     "test": "jest",
     "prepages": "tailwindcss build examples/_index.css -o examples/index.css"
