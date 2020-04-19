@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss-stack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "tailwindcss",
+    "css",
+    "postcss"
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "jest": "^25.3.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
