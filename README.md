@@ -1,3 +1,5 @@
+![Github Action CI](https://github.com/tnobody/tailwindcss-stacklayout-plugin/workflows/Node.js%20Build%20and%20Validate/badge.svg)
+
 # Tailwindcss _Stack_ Plugin
 
 Plugin for stacked layouts with Tailwindcss.
