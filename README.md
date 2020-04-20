@@ -13,9 +13,9 @@ Read more about Stack-Layout patterns and the problems they solve on [every-layo
 First you have to add the plugin to your project:
 
 ```bash
-yarn add tailwindcss-stacklayout-plugin -D
+yarn add tailwindcss-stack-plugin -D
 # or
-npm i tailwindcss-stacklayout-plugin -D
+npm i tailwindcss-stack-plugin -D
 ```
 
 In your `tailwind.config.js` file you have to add the actual plugin in the _plugins_ section:
