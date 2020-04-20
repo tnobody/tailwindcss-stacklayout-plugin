@@ -53,6 +53,49 @@ npx live-server examples/
 
 ```
 
-Live-Server will automatically open the example page in a browser. You can edit the example `examples/index.html` to play around with stacklayouts
+Live-Server will automatically open the example page in a browser. You can edit the example `examples/index.html` to play around with stacklayouts. To tell the stack about it's inner gap you have to apply an additional class `stack-*`
+
+With the default tailwind settings the following classes are available:
+
+| Class                         | Properties                |
+|-------------------------------|---------------------------|
+| `.stack`                      | `display: flex;`<br />`flex-direction: column` |
+| `.stack.stack-0`              | `margin-top: 0;`          |
+| `.stack.stack-1`              | `margin-top: 0.25rem;`    |
+| `.stack.stack-2`              | `margin-top: 0.5rem;`     |
+| `.stack.stack-3`              | `margin-top: 0.75rem;`    |
+| `.stack.stack-4`              | `margin-top: 1rem;`       |
+| `.stack.stack-5`              | `margin-top: 1.25rem;`    |
+| `.stack.stack-6`              | `margin-top: 1.5rem;`     |
+| `.stack.stack-8`              | `margin-top: 2rem;`       |
+| `.stack.stack-10`             | `margin-top: 2.5rem;`     |
+| `.stack.stack-12`             | `margin-top: 3rem;`       |
+| `.stack.stack-16`             | `margin-top: 4rem;`       |
+| `.stack.stack-20`             | `margin-top: 5rem;`       |
+| `.stack.stack-24`             | `margin-top: 6rem;`       |
+| `.stack.stack-32`             | `margin-top: 8rem;`       |
+| `.stack.stack-40`             | `margin-top: 10rem;`      |
+| `.stack.stack-48`             | `margin-top: 12rem;`      |
+| `.stack.stack-56`             | `margin-top: 14rem;`      |
+| `.stack.stack-64`             | `margin-top: 16rem;`      |
+| `.stack-horizontal`           | `display: flex;`<br />`flex-direction: row` |
+| `.stack-horizontal.stack-0`   | `margin-right: 0;`        |
+| `.stack-horizontal.stack-1`   | `margin-right: 0.25rem;`  |
+| `.stack-horizontal.stack-2`   | `margin-right: 0.5rem;`   |
+| `.stack-horizontal.stack-3`   | `margin-right: 0.75rem;`  |
+| `.stack-horizontal.stack-4`   | `margin-right: 1rem;`     |
+| `.stack-horizontal.stack-5`   | `margin-right: 1.25rem;`  |
+| `.stack-horizontal.stack-6`   | `margin-right: 1.5rem;`   |
+| `.stack-horizontal.stack-8`   | `margin-right: 2rem;`     |
+| `.stack-horizontal.stack-10`  | `margin-right: 2.5rem;`   |
+| `.stack-horizontal.stack-12`  | `margin-right: 3rem;`     |
+| `.stack-horizontal.stack-16`  | `margin-right: 4rem;`     |
+| `.stack-horizontal.stack-20`  | `margin-right: 5rem;`     |
+| `.stack-horizontal.stack-24`  | `margin-right: 6rem;`     |
+| `.stack-horizontal.stack-32`  | `margin-right: 8rem;`     |
+| `.stack-horizontal.stack-40`  | `margin-right: 10rem;`    |
+| `.stack-horizontal.stack-48`  | `margin-right: 12rem;`    |
+| `.stack-horizontal.stack-56`  | `margin-right: 14rem;`    |
+| `.stack-horizontal.stack-64`  | `margin-right: 16rem;`    |
 
 If you just want to see the example check out the [example page](https://tnobody.github.io/tailwindcss-stacklayout-plugin/)
